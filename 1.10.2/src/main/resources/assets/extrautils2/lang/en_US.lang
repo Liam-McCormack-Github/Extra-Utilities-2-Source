@@ -641,6 +641,7 @@ tile.extrautils2:drum.drum_16.name=Stone Drum
 tile.extrautils2:drum.drum_256.name=Iron Drum
 tile.extrautils2:drum.drum_4096.name=Reinforced Large Drum
 tile.extrautils2:drum.drum_65536.name=Demonically Gargantuan Drum
+tile.extrautils2:drum.drum_2000000.name=§lUnstabally Big Drum§r
 tile.extrautils2:drum.drum_creative.name=Creative Drum
 tile.extrautils2:drum.name=Drum
 tile.extrautils2:enderlilly.name=Ender Lilly

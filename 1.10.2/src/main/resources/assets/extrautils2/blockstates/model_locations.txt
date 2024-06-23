@@ -285,6 +285,7 @@ variants={
 	capacity=drum_256
 	capacity=drum_4096
 	capacity=drum_65536
+	capacity=drum_2000000
 }
 
 models/item/drum.json

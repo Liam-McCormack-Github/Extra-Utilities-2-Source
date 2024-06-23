@@ -1113,7 +1113,7 @@ public class XU2Entries {
 		}
 	};
 	public static BlockClassEntry<BlockDrum> drum = new BlockClassEntry<BlockDrum>(BlockDrum.class,
-			TileDrum.Tank16.class, TileDrum.Tank256.class, TileDrum.Tank4096.class, TileDrum.Tank65536.class, TileDrum.TankInf.class) {
+			TileDrum.Tank16.class, TileDrum.Tank256.class, TileDrum.Tank4096.class, TileDrum.Tank65536.class, TileDrum.Tank2000000.class, TileDrum.TankInf.class) {
 		@Override
 		public void addRecipes() {
 			addShaped("drum_16", newStackMeta(BlockDrum.Capacity.DRUM_16.ordinal()), "SsS", "SbS",
@@ -1139,6 +1139,11 @@ public class XU2Entries {
 					'b', kleinFlask
 			));
 
+			CraftingHelper.addRecipe(new UpgradeRecipe(CraftingHelper.createLocation("drum_2000000"), newStackMeta(BlockDrum.Capacity.DRUM_2000000.ordinal()), 1, 1, "SbS", "SsS", "SbS",
+					'S', "ingotUnstable",
+					's', newStackMeta(BlockDrum.Capacity.DRUM_65536.ordinal()),
+					'b', kleinFlask
+			));
 
 			for (BlockDrum.Capacity capacity : BlockDrum.Capacity.values()) {
 				CraftingHelper.addRecipe(new XUShapelessRecipeClearNBT(CraftingHelper.createLocation("drum_clear_" + capacity.capacity), newStackMeta(capacity.ordinal()), "Fluid"));

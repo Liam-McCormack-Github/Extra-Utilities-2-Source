@@ -247,6 +247,13 @@ public abstract class TileDrum extends XUTile {
 		}
 	}
 
+	public static class Tank2000000 extends TileDrum {
+		@Override
+		protected int getCapacity() {
+			return 2000000 * 1000;
+		}
+	}
+
 	public static class TankInf extends TileDrum {
 		@Override
 		protected int getCapacity() {

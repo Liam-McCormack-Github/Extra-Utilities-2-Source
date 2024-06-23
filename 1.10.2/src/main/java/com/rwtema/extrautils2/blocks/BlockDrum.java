@@ -248,6 +248,18 @@ public class BlockDrum extends XUBlockStatic {
 				return 0.484375f;
 			}
 		},
+		DRUM_2000000("unstable", 2000000) {
+			@Override
+			public TileDrum createTile() {
+				return new TileDrum.Tank2000000();
+			}
+
+			@Override
+			public float getWidth() {
+//				return 0.4F;
+				return 0.484375f;
+			}
+		},
 		DRUM_CREATIVE("creative", 10000) {
 			@Override
 			public TileDrum createTile() {

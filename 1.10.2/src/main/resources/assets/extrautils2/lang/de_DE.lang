@@ -420,6 +420,7 @@ tile.ExtraUtils2:Drum.drum_16.name=Stone Drum
 tile.ExtraUtils2:Drum.drum_256.name=Iron Drum
 tile.ExtraUtils2:Drum.drum_4096.name=Reinforced Large Drum
 tile.ExtraUtils2:Drum.drum_65536.name=Drum_65536
+tile.ExtraUtils2:Drum.drum_2000000.name=Drum_2000000
 tile.ExtraUtils2:Drum.drum_creative.name=Creative Drum
 tile.ExtraUtils2:Drum.name=Drum
 tile.ExtraUtils2:EnderLilly.name=Ender Lilly
